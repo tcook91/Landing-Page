@@ -55,12 +55,17 @@ main {
     display:flex;
     justify-content: center;
     flex-wrap: wrap;
+    
 }
 
 @media only screen and (min-width: 768px) {
 article { flex-direction: column;}
 }
-
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 1rem;
+}
 
 /* class */
 .flex-top {
@@ -87,7 +92,7 @@ article { flex-direction: column;}
    justify-content:center;
    align-items: center;
    padding:100px;
-   height: 400px;
+   
 }
 
 .hero-h1 {
@@ -117,8 +122,46 @@ min-width: 125px;
     background-color: #e5e7eb;
     font-style: italic;
     text-align: center;
-    padding: 36px;
+    padding: 10vw 10vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
 }
 .test {
     font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+.wrapper {
+    flex: auto;
+}
+.cta {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.flex1-cta {
+    width: 65vw;
+    
+    background-color: #3882f6;
+    margin:50px;
+    border-radius: 5%;
+}
+.flex2-cta {
+    display:flex;
+    justify-content:space-between;
+    padding: 2rem;
+    align-items: center;
+}
+.flex2-b-cta {
+    border: solid white;
+}
+.flex2-p-cta {
+    color: white;
+    margin:10px;
+}
+.foot {
+    color: white;
+
 }
